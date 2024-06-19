@@ -13,9 +13,6 @@ def check_username_availability(start, end):
         else:
             print(f"User ID {user_id} is taken.")
             
-        # Esperar 1 segundo entre solicitudes para no sobrecargar el servidor
-        time.sleep(1)
-            
     return available_usernames
 
 # Chequear del ID 100 al 1000 para demostrar el funcionamiento
